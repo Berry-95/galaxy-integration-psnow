@@ -1,15 +1,18 @@
-# template-repository-structure
-Unofficial template for GOG Galaxy 2.0 integrations.
-
-Remember to change author in License file.
+# Galaxy Integration for Playstation Now
+Unofficial Playstation Now integration for GOG Galaxy 2.0.
 
 ---
 
+##Implementation
+ [In built-in search][fog] | Install & Launch | Achievements | Game Time | Friend Recmd. | Friend Presence
+ :-- | ---------------: | -----------: | --------: | ------------: | ---------------:
+ ⬜   | ⬜               | ⬜           | ⬜        | ⬜            | ⬜
+
 ## Installation
-1. Download [latest release](https://github.com/FriendsOfGalaxy/galaxy-integration-battlenet/releases) of the plugin for your platform.
+1. Download [latest release](https://github.com/Berry-95/galaxy-integration-psnow/releases) of the plugin for your platform.
 2. Create plugin folder:
-	- Windows: `%LOCALAPPDATA%\GOG.com\Galaxy\plugins\installed\<my-plugin-name>`
-	- MacOS: `${HOME}/Library/Application Support/GOG.com/Galaxy/plugins/installed/<my-plugin-name>`
+	- Windows: `%LOCALAPPDATA%\GOG.com\Galaxy\plugins\installed\psnow`
+	- MacOS: `${HOME}/Library/Application Support/GOG.com/Galaxy/plugins/installed/psnow`
 3. Unpack downloaded release to created folder.
 4. Restart GOG Galaxy Client.
 
@@ -19,15 +22,4 @@ Along with you detailed problem description, you may need to attach plugin log f
 - MacOS: `/Users/Shared/GOG.com/Galaxy/Logs`
 
 for example:
-`C:\\ProgramData\GOG.com\Galaxy\logs\plugin-name-1231-f2f22-f23f2-23ff2.log`
-
-## Development
-
-1. create and activate virtual environment
-2. install dependencies
-
-        pip install -r requirements/dev.txt
-
-3. run tests
-
-        pytest
+`C:\\ProgramData\GOG.com\Galaxy\logs\psnow-1231-f2f22-f23f2-23ff2.log`

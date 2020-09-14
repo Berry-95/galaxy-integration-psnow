@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IntelliJ Idea project
+/.idea/
+/galaxy-integration-psnow.iml
+
+#Noone wants this
+notes
